@@ -1,6 +1,6 @@
 pipeline{
     environment {
-        registry = "simoziyadisimpledockerapp/simpleGoServer"
+        registry = "simoziyadisimpledockerapp/simplegoserver"
         registryCredential = 'simodockerhub'
         dockerImage = ''
     }
