@@ -13,4 +13,6 @@ WORKDIR /app
 
 COPY --from=builder /go/src/app/webserver /app/
 
+EXPOSE 8080
+
 CMD ["./webserver"]
