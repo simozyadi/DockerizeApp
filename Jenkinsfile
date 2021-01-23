@@ -1,7 +1,7 @@
 pipeline{
     environment {
-        registry = "simoziyadi/simpledockerapp"
-        registryCredential = 'simodockerhub'
+        registry = "nimrodops/godockerapp"
+        registryCredential = 'docker-credentials'
         dockerImage = ''
     }
     agent any
