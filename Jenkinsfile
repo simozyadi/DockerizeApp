@@ -4,9 +4,8 @@ pipeline{
         registryCredential = 'simodockerhub'
         dockerImage = ''
     }
-    agent{
-        any
-    }
+    agent any
+
     stages{
         stage("build image"){
             steps{
