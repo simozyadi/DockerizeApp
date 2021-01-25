@@ -19,7 +19,7 @@ pipeline{
         stage("deploy image to docker hub"){
 
             steps{
-                echo "========executing deploy image to docker hub========"
+                echo "========executing deploy image to docker hub========="
                 script{
                     docker.withRegistry('', registryCredential) {
                         dockerImage.push()
