@@ -4,7 +4,7 @@ import (
 	"net/http"
 )
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hey, Go is V4 now")
+	fmt.Fprintf(w, "Hey, Go is V5 now")
 }
 
 func homepageHandler(w http.ResponseWriter, r *http.Request) {
